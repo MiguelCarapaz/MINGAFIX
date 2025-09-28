@@ -1,4 +1,4 @@
-#***Integrantes***
+# ***Integrantes***
 
-#**Miguel Carapaz**
+# **Miguel Carapaz**
 **Mateo Congo**
