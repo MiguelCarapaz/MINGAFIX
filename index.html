@@ -4,85 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MINGAFIX</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            text-align: center;
-            padding: 2em;
-        }
-        h1 {
-            color: #0056b3;
-        }
-        video {
-            max-width: 100%;
-            height: auto;
-            margin-top: 1em;
-            border: 3px solid #ddd;
-            border-radius: 8px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .creators {
-            margin-top: 2em;
-            font-style: italic;
-            color: #666;
-        }
-        .links {
-            margin-top: 2em;
-            text-align: left;
-            display: inline-block;
-        }
-        .links h3 {
-            text-align: center;
-            color: #333;
-        }
-        .links ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .links li {
-            margin-bottom: 0.5em;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="LOGO.png" alt="MINGAFIX Logo" class="logo">
+        <h1>MINGAFIX</h1>
+    </header>
 
-    <h1>MINGAFIX</h1>
+    <main>
+        <section class="project-description">
+            <h2>Sobre el Proyecto</h2>
+            <p>Objetivo: Crear un endpoint /reportes que reciba foto (url o mock), categoría y ubicación (lat/long).<br>Entregable:<br>• Repositorio con código + documentación simple.<br>• Video explicativo mostrando un ejemplo de envío de reporte.</p>
+            <a href="https://github.com/Einarr07/mingaFix" target="_blank" class="button">Ver Repositorio en GitHub</a>
+        </section>
 
-    <video controls>
-        <source src="Mingafix.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
+        <section class="video-section">
+            <h2>Demostración</h2>
+            <video controls>
+                <source src="endpoint.mp4" type="video/mp4">
+                Tu navegador no soporta el tag de video.
+            </video>
+        </section>
 
-    <p>
-        <a href="https://www.figma.com/make/TGwP6QdWNMCSgz7r3mIv4R/MINGAFIX?fullscreen=1" target="_blank">Ver Prototipo en Figma</a>
-    </p>
+        <section class="creators-section">
+            <h2>Creadores</h2>
+            <div class="creators-container">
+                <div class="creator-card">
+                    <h3>Miguel Carapaz</h3>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/miguel-carapaz" target="_blank">LinkedIn</a> |
+                        <a href="https://portfolio-tawny-zeta-45.vercel.app/#portfolio" target="_blank">Portafolio</a>
+                    </div>
+                </div>
+                <div class="creator-card">
+                    <h3>Mateo Congo</h3>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/mateo-congo-b65a0a27b/" target="_blank">LinkedIn</a> |
+                        <a href="https://github.com/Einarr07" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <div class="creators">
-        <p>Realizado por:</p>
-        <p>Miguel Carapaz y Mateo Congo</p>
-    </div>
-
-    <div class="links">
-        <h3>Redes y Portafolios</h3>
-        <ul>
-            <li><strong>Miguel Carapaz:</strong>
-                <a href="https://www.linkedin.com/in/miguel-carapaz" target="_blank">LinkedIn</a> |
-                <a href="https://portfolio-tawny-zeta-45.vercel.app/#portfolio" target="_blank">Portafolio</a>
-            </li>
-            <li><strong>Mateo Congo:</strong>
-                <a href="https://www.linkedin.com/in/mateo-congo-b65a0a27b/" target="_blank">LinkedIn</a> |
-                <a href="https://github.com/Einarr07" target="_blank">GitHub</a>
-            </li>
-        </ul>
-    </div>
-
+    <footer>
+        <p>&copy; 2025 MINGAFIX</p>
+    </footer>
 </body>
 </html>
